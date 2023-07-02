@@ -1,0 +1,61 @@
+/*顶栏美化*/
+#nav .site-page {
+  font-size: 0.79em; /*字体大小*/
+  letter-spacing: 3px; /*字体间距*/
+  font-weight: 600; /*字体粗细*/
+}
+`/*文章页目录卡片圆角*/`
+#aside-content .card-widget {
+border-radius: 20px;
+}
+#nav {
+  height: 70px; /*顶栏高度调整*/
+}
+#page-header.nav-fixed #nav {
+  top: -70px; /*顶栏调整空缺补齐*/
+}
+/*文章页信息栏美化*/
+#post-info .post-title {
+  font-weight: 600; /*字体粗细*/
+  font-size: 2.5em; /*字体大小*/
+  line-height: 2.2; /*元素高度*/
+  letter-spacing: 9px; /*字体间距*/
+}
+
+/*信息栏高度调整*/
+#page-header.post-bg {
+  height: 26rem;
+}
+
+/*Web端信息栏适配*/
+@media screen and (min-width: 421px){
+  #page-header #post-info {
+    bottom: 8rem;
+}
+}
+
+/*Wap端信息栏适配*/
+@media screen and (max-width: 420px){
+  #page-header #post-info {
+    bottom: 2rem;
+}
+}
+/*文章页卡片圆角*/
+.layout > div:first-child:not(.recent-posts) {
+  border-radius: 35px;
+}
+/* 右侧小按钮圆角 */
+#rightside>div>button,#to_comment {
+    margin-right: 4px;
+    border-radius: 7px;
+  }
+
+/*侧边滑动颜色*/
+:root {
+    --btn-bg: #3a87b9;
+}
+# toc (目錄)
+toc:
+  enable: true
+  number: true
+  style_simple: true
