@@ -5509,8 +5509,8 @@ blockquote.pullquote.right {
   font-weight: bold;
 }
 .recent-post-item {
-  background: rgba(255,255,255,0) !important;
+  background: rgba(255,255,255,0.3) !important;
 }
 .card-widget {
-  background: rgba(255,255,255,0) !important;
+  background: rgba(255,255,255,0.3) !important;
 }
