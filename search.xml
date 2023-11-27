@@ -29,4 +29,13 @@
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
   </entry>
+  <entry>
+    <title>2023.11.27第一次更新日志</title>
+    <url>/2023/11/27/update1/</url>
+    <content><![CDATA[<p>1、hexo: 7.0.0</p>
+<p>2、butterfly: 4.11.0</p>
+<p>3、Twikoo前端版本：1.6.25， 云函数版本：1.6.26</p>
+<p>本来只想升级twikoo的，按照官网教程升级只升级了云函数，要想升级前端得升级butterfly主题，顺便把hexo也一升了。只做升级，配置文件未改动。</p>
+]]></content>
+  </entry>
 </search>
